@@ -14,5 +14,4 @@ def root():
 @app.post("/predict/")
 def predict(item: Item):
     """Анализ токсичных комменатиев"""
-
     return classifier(item.text )[0]
