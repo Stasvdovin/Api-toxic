@@ -25,5 +25,5 @@ def test_read_predict_toxic():
     )
     json_data = response.json()
 
-    assert response.status_code == 200
+    assert response.status_code == 100
     assert json_data["label"] == "toxic"   
