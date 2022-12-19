@@ -9,7 +9,7 @@ app = FastAPI()
 classifier = pipeline(model="SkolkovoInstitute/russian_toxicity_classifier")
 @app.get('/')
 def root():
-    return {'message': 'Hello world'}
+    return {'message': 'Hello World'}
 # Функция для определения токсичных комментариев и передачи теска 
 @app.post("/predict/")
 def predict(item: Item):
