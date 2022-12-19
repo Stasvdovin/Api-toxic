@@ -1,7 +1,8 @@
 
 fastapi
 uvicorn
-transformers sentencepiece
+transformers 
+sentencepiece
 torch
 pytest
 httpx
